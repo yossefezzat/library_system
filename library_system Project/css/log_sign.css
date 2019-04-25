@@ -1,0 +1,180 @@
+body {
+ 
+	margin : 0 ;
+    padding : 0;
+    font-family : sans-serif;
+    padding-bottom: 300px;
+    font-family: 'Calibri';
+    background : url("../images/form.jpg") no-repeat center center fixed ;
+    background-size: cover ;
+    background-position : center;
+    width: 769px;
+}
+
+.loginPage .container { 
+    width: 190px;
+    height : 500px;
+    text-align: center;
+    /*background-color : rgba(0 , 0 , 0 , 0.5);*/
+    color : #fff ;
+    box-sizing = border-box;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 50px;   
+}
+.loginPage .container form{
+    display: block;
+    padding-top: 105px;
+    width: 334px;
+    margin: auto;
+    text-align: right;
+}
+.loginPage .a{
+    margin-right: 266px;
+    color: #e7e3e2;
+    text-transform: none;
+    /*text-decoration: underline;*/
+    font-weight: bold;
+}
+.loginPage .login input{
+    background: #f00;
+}
+.loginPage input { 
+    color : white ;
+    height: 49px;
+    width: 449px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 67px;
+    background-color: lightslategray;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+   
+    border-bottom: solid 2px dodgerblue;
+}
+.loginPage input:focus { 
+    color : white ;
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 67px;
+    background-color: rgba(0 , 0 , 0 , 0.5);
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: solid 2px dodgerblue;
+}
+
+.loginPage input[type = "submit"]{
+    width: 203px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #2196f3;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.loginPage .valid{
+    color:red;
+    margin-bottom: 20px;
+}
+.loginPage input::placeholder{color: #e0e0e0}
+
+
+/*----------------------- endlogin ----------------------------*/
+
+
+.registerPage .container { 
+
+    width: 473px;
+    height: 600px;
+    text-align: center;
+    color : #fff ;
+    box-sizing = border-box;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50px;
+    
+    
+    
+
+    
+}
+.registerPage .container form{
+    display: block;
+     padding-top: 80px;
+    width: 334px;
+    margin: auto;
+    text-align: right;
+
+
+}
+
+.registerPage p {
+    width: 300px;
+    font-family: Arial;
+    color: #2196f3;
+    font-size: 45px;
+    height: 97px;
+    margin-left: 43px;
+}
+
+.registerPage .container form a{
+    margin-right: 286px;
+    color: #e7e3e2;
+    text-transform: none;
+    text-decoration: underline;
+    color: #007bff;
+    font-weight: bold;
+}
+.registerPage .login input{
+    background: #f00;
+}
+.registerPage input { 
+    color : white ;
+    height: 49px;
+    width: 449px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 67px;
+    background-color: lightslategray;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+   
+    border-bottom: solid 2px dodgerblue;
+}
+
+
+
+.registerPage input[type = "submit"]{
+    width: 203px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #2196f3;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 8px
+}   
+.registerPage input::placeholder{color: #080705}
+
+.registerPage .valid{
+    color:red;
+    margin-bottom: 20px;
+}
+
+
+/*------------------------- end register ----------------------*/
+
+
